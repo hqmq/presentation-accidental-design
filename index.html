@@ -36,6 +36,10 @@
       text-decoration: underline;
       margin-bottom: 1em;
     }
+    section img.no-border {
+      border:none;
+      box-shadow:none;
+    }
     </style>
   </head>
 
@@ -174,7 +178,7 @@
         </section>
 
         <section data-background="rgb(108,154,40)">
-          <img src="images/keep_calm.png" style="border:none; box-shadow:none;" />
+          <img src="images/keep_calm.png" class="no-border" />
           <aside class="notes">
             Now it was time to start writing some code. I told my boss that I would not make any more updates to the old crappy PHP code. So the next time there was a new vendor I estimated a bit more time and got to work.
             It should not be a surprise to you at this point that the first version was kind of sad.
@@ -214,15 +218,60 @@
           </aside>
         </section>
 
-        <!-- <section data-background="#55BB55">
-          <h2>Protip #1</h2>
+        <section>
+          <div class="triangle-border right">
+            Can we fix registrations from X?
+          </div>
+          <div class="triangle-border left fragment">
+            Yes, lets migrate them to the new system.
+          </div>
+          <aside class="notes">
+            For the next two months we migrated most of the vendors to the new API. I would spend 2-3 hours a week on our new system. Each time I would try to clean up one mess. Eventually there were only a couple of people using the old API so we migrated them too even though we didn't need to fix anything. For every existing client we only made them change the URL.
+          </aside>
+        </section>
+
+        <section>
+          <img src="images/tetris.jpg" class="no-border" />
+          <aside class="notes">
+            The system supported more complexity than the previous iterations. There were not 300+ line methods. Making changes felt fearless.
+          </aside>
+        </section>
+
+        <section data-background="#55BB55">
+          <h2>Protip</h2>
           <h1>Sleep On It</h1>
           <aside class="notes">
-            Your big ball of mud was good enough to get you to today. You aren't bankrupt (hopefully) so the rewrite doesn't have to be done this week.
-
-            "When was the last time you thought hard about something for an hour? A Day? Over the course of a month?" ~Rich Hickey (Hammock Driven Development)
+            Your big ball of mud was good enough to get you to today. You aren't bankrupt (hopefully) so the rewrite doesn't have to be done this week.            
           </aside>
-        </section> -->
+        </section>
+
+        <section data-background="images/rodin_thinker.jpg">
+          <aside class='notes'>
+            "When was the last time you thought hard about something for an hour? A Day? Over the course of a month?" ~Rich Hickey (Hammock Driven Development)
+
+            There are lots of things you can do to code faster, but how do you think faster? Can you make inspiration strike?
+
+            Working more hours in a day did not lead me to better software or more software.
+          </aside>
+        </section>
+
+        <section>
+          <h2>Duplication is far cheaper than the wrong abstraction</h2>
+          <h3> - Sandi Metz</h3>
+          <h4>"All the little things" Ruby On Ales 2014</h4>
+          <aside class='notes'>
+            At a recent talk Sandi Metz said...
+            I am in no way qualified to change Sandi's words, but...
+          </aside>
+        </section>
+
+        <section>
+          <h2>[almost anything] is far cheaper than the wrong abstraction</h2>
+        </section>
+
+        <section data-background="#000000">
+          <h1>End</h1>
+        </section>
       </div>
 
     </div>
