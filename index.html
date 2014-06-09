@@ -59,10 +59,9 @@
         </section>
 
         <section data-background="images/pony.png">
-          <h1 class="fragment">I Love MWRC</h1>
           <aside class="notes">
-            One thing I have learned about MWRC is that more ponies means more happy.
-          </aside>        
+            I'm not Mike Moore, but I can still throw a pony into my slides.
+          </aside>
         </section>
 
         <section>
@@ -145,8 +144,8 @@
 
         <section data-background="#5555BB">
           <h1 class="protip">Protip</h1>
-          <h1>Talk To People Verbally</h1>
-          <h1 class="fragment">Write It Down</h1>
+          <h1>Talk Out Loud</h1>
+          <h2 class="fragment">To Multiple Different Audiences</h2>
           <aside class="notes">
             One of the best ways to create this system metaphor is to talk to people. Talk to people both in the team and on the edges of the team.
 
@@ -157,7 +156,7 @@
         <section>
           <img src="images/enough_talk.jpg" />
           <aside class="notes">
-            Now I had a metaphor that helped to inform how the system would be shaped. But I wanted make some more concrete progress.
+            Now I had a metaphor that helped to inform how the system would be shaped. But I wanted make something more concrete progress.
 
             So I started to draw.
           </aside>
@@ -197,7 +196,7 @@
         <section data-background="#5555BB">
           <h1 class="protip">Protip</h1>
           <h1>Draw BIG</h1>
-          <h3>Draw Small</h3>
+          <h3 class="fragment">Draw Small</h3>
           <aside class="notes">
             Draw your system diagram with very few objects. Try to draw it on a 3x5 card or only using fat crayons.
 
@@ -213,6 +212,90 @@
           </aside>
         </section>
 
+        <section data-background="images/red_green_refactor.jpg">
+          <aside class="notes">
+            I was able to get a working implementation with some high-level acceptance tests.
+          </aside>
+        </section>
+
+        <section data-background="images/crying_pony.png">
+          <aside class="notes">
+            But my code just didn't feel as clean and easy-to-follow as my metaphor or my drawing.
+            I didn't know how to fix my code.
+          </aside>
+        </section>
+
+        <section data-background="#55BB55">
+          <h1 class="protip">Protip</h1>
+          <h1>Literate Programming</h1>
+          <h3>Give me a Narrative</h3>
+        </section>
+
+        <section data-background="#5555BB">
+          <h1 class="protip">Protip</h1>
+          <h1>Make Up Stories</h1>
+          <aside class="notes">
+            If you want your code to read like a story, try to tell yourself a story about your code.
+            Pick the objects or modules in your existing system and give them names.
+            Write multiple stories that express the different use cases and you'll realize why your objects don't fit.
+          </aside>
+        </section>
+
+        <section>
+          <div class="triangle-border right">
+            Can we fix registrations from X?
+          </div>
+          <div class="triangle-border left fragment">
+            Yes, lets migrate them to the new system.
+          </div>
+          <aside class="notes">
+            For the next two months we migrated most of the vendors to the new API. I would spend 2-3 hours a week on our new system. Each time I would try to clean up one mess. Eventually there were only a couple of people using the old API so we migrated them too even though we didn't need to fix anything. For every existing client we only made them change the URL.
+          </aside>
+        </section>
+
+        <section data-background="#55BB55">
+          <h1 class="protip">Protip</h1>
+          <h1>Iterative Refinement</h1>
+        </section>
+
+        <section data-background="#5555BB">
+          <h1 class="protip">Protip</h1>
+          <h1>Sleep On It</h1>
+          <aside class="notes">
+            Your big ball of mud was good enough to get you to today. You aren't bankrupt (hopefully) so the rewrite doesn't have to be done this week.            
+          </aside>
+        </section>
+
+        <section data-background="images/rodin_thinker.jpg">
+          <aside class='notes'>
+            "When was the last time you thought hard about something for an hour? A Day? Over the course of a month?" ~Rich Hickey (Hammock Driven Development)
+
+            There are lots of things you can do to code faster, but how do you think faster? Can you make inspiration strike?
+
+            Working more hours in a day did not lead me to better software or more software.
+          </aside>
+        </section>
+
+        <section>
+          <h1>Duplication is far cheaper than the wrong abstraction</h1>
+          <h3> - Sandi Metz</h3>
+          <h4>"All the little things" Ruby On Ales 2014</h4>
+          <aside class='notes'>
+            At a recent talk Sandi Metz said...
+            I am in no way qualified to change Sandi's words, but...
+          </aside>
+        </section>
+
+        <section>
+          <h1>[almost anything] is far cheaper than the wrong abstraction</h1>
+        </section>
+
+        <section data-background="#000000">
+          <h1>End</h1>
+          <h4>hqmq.github.io/presentation-accidental-design</h4>
+        </section>
+
+        <!-- Your First Thought is Wrong
         <section>
           <h2>Why Your First Idea Can Blind You to a Better One</h2>
           <h3> - Merim Bilalić and Peter McLeod</h3>
@@ -245,67 +328,7 @@
             You don't have to burn everything down and you don't have to wait to ship it, but you do have to make it better next time.
           </aside>
         </section>
-
-        <section>
-          <div class="triangle-border right">
-            Can we fix registrations from X?
-          </div>
-          <div class="triangle-border left fragment">
-            Yes, lets migrate them to the new system.
-          </div>
-          <aside class="notes">
-            For the next two months we migrated most of the vendors to the new API. I would spend 2-3 hours a week on our new system. Each time I would try to clean up one mess. Eventually there were only a couple of people using the old API so we migrated them too even though we didn't need to fix anything. For every existing client we only made them change the URL.
-          </aside>
-        </section>
-
-        <section>
-          <img src="images/tetris.jpg" class="no-border" />
-          <aside class="notes">
-            The system supported more complexity than the previous iterations. There were not 300+ line methods. Making changes felt fearless.
-          </aside>
-        </section>
-
-        <section data-background="#55BB55">
-          <h1 class="protip">Protip</h1>
-          <h1>Iterative Refinement</h1>
-        </section>
-
-        <section data-background="#5555BB">
-          <h2>Protip</h2>
-          <h1>Sleep On It</h1>
-          <aside class="notes">
-            Your big ball of mud was good enough to get you to today. You aren't bankrupt (hopefully) so the rewrite doesn't have to be done this week.            
-          </aside>
-        </section>
-
-        <section data-background="images/rodin_thinker.jpg">
-          <aside class='notes'>
-            "When was the last time you thought hard about something for an hour? A Day? Over the course of a month?" ~Rich Hickey (Hammock Driven Development)
-
-            There are lots of things you can do to code faster, but how do you think faster? Can you make inspiration strike?
-
-            Working more hours in a day did not lead me to better software or more software.
-          </aside>
-        </section>
-
-        <section>
-          <h2>Duplication is far cheaper than the wrong abstraction</h2>
-          <h3> - Sandi Metz</h3>
-          <h4>"All the little things" Ruby On Ales 2014</h4>
-          <aside class='notes'>
-            At a recent talk Sandi Metz said...
-            I am in no way qualified to change Sandi's words, but...
-          </aside>
-        </section>
-
-        <section>
-          <h2>[almost anything] is far cheaper than the wrong abstraction</h2>
-        </section>
-
-        <section data-background="#000000">
-          <h1>End</h1>
-          <h4>hqmq.github.io/presentation-accidental-design</h4>
-        </section>
+        -->
       </div>
 
     </div>
