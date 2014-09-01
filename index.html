@@ -47,6 +47,8 @@
       width: 150px;
       height: 100px;
     }
+    span.red { color: red; }
+    span.green { color: green; }
     </style>
   </head>
 
@@ -60,15 +62,8 @@
         <section>
           <h1>I Accidentally Wrote The Best Code of my Career</h1>
           <h3>Michael Ries</h3>
-          <p><small>@hqmq_</small></p>
-          <aside class="notes">
-            This talk is a story about a project that surprised and delighted me. Along the way we will visit some protips.
-          </aside>
-        </section>
-
-        <section>
-          <h1>Disadvantage</h1>
-        </section>
+          <h3>@hqmq_</small></h3>
+       </section>
 
         <section>
           <h1>Finnish Drivers</h1>
@@ -91,19 +86,11 @@
         </section>
 
         <section>
-          <h1>Danish Drivers</h1>
+          <h1>Danish Driver</h1>
           <img src="images/dhh.jpg" />
         </section>
 
-        <section>
-          <h2>Disclaimer</h2>
-          <img src="images/its_okay_to_not_like_things.jpg" />
-          <aside class="notes">
-            This talk contains derogatory comments about code. This was from a previous job (not MoneyDesktop) and I liked the people I worked with so I won't name the company.
-          </aside>
-        </section>
-
-        <section>
+       <section>
           <div class="triangle-border right">
             ACME is going to start sending us registrations. Can you make sure we flag them for marketing?
           </div>
@@ -133,156 +120,78 @@
 
         <section>
           <h1>...2 months later</h1>
-          <aside class="notes">
-            For 2 months I tried to find time to work on this system, but I only ever got as far as describing it to other people.
-
-            Something intereseting happened as I found myself describing the system over and over
-          </aside>
         </section>
 
         <section>
           <h2>...a pipeline...</h2>
           <h2 class="fragment">...with logs...</h2>
           <h2 class="fragment">...vendor-specific mapping...</h2>
-          <aside class="notes">
-            What is wrong with this description? IT DOESN'T MEAN ANYTHING.
-
-            I started off trying to describe my design in terms of programming patterns and solutions.
-          </aside>
         </section>
 
         <section>
           <h2>...registration office at a University...</h2>
           <h2 class="fragment">...with paperwork...</h2>
           <h2 class="fragment">...translators for foreign students...</h2>
-          <aside class="notes">
-            After many blank stares I one day tried to explain it to someone who was not a programmer and the words changed...
-
-            Later when I would describe it other programmers I kept using the metaphor words because they had more context.
-          </aside>
         </section>
 
         <section data-background="#55BB55">
           <h1 class="protip">Protip</h1>
           <h1>System Metaphor</h1>
           <h4> - Kent Beck</h4>
-          <aside class="notes">
-            One of the practices from Kent Beck's XP Explained.
-
-            One of the best ways to make your code more discoverable or readable is to leverage shared experience.
-          </aside>
         </section>
 
         <section data-background="#5555BB">
           <h1 class="protip">Protip</h1>
           <h1>Talk Out Loud</h1>
           <h2 class="fragment">To Multiple Different Audiences</h2>
-          <aside class="notes">
-            One of the best ways to create this system metaphor is to talk to people. Talk to people both in the team and on the edges of the team.
-
-            When you write the code it will be in the form of written language so take a little time to write down the metaphor.
-          </aside>
         </section>
 
         <section>
           <img src="images/enough_talk.jpg" />
-          <aside class="notes">
-            Now I had a metaphor that helped to inform how the system would be shaped. But I wanted make something more concrete progress.
-
-            So I started to draw.
-          </aside>
         </section>
 
         <section data-background="images/system_diagram_flat.jpeg">
-          <aside class="notes">
-            What is wrong with this picture?
-            My first clue was that the picture was harder to explain than the story.
-            My second clue was that everyone yelled at me that I didn't understand UML and please stop trying.
-            It treats the whole system as a single-level abstraction.
-          </aside>
         </section>
 
         <section>
           <img src="images/domain_diagram_high_level.jpeg" />
-          <aside class="notes">
-            Soon I started drawing the picture to match the story.
-            I drew less things.
-          </aside>
         </section>
 
         <section data-background="images/system_diagram_domain.jpeg">
-          <aside class="notes">
-            I could dive into any one part of the diagram and make a more detailed metaphor about that part of the story.
-          </aside>
         </section>
 
         <section data-background="#55BB55">
           <h1 class="protip">Protip</h1>
           <h1>Intentional Abstraction</h1>
-          <aside class="notes">
-            It keeps the number of objects you need to think about low.
-          </aside>
         </section>
 
         <section data-background="#5555BB">
           <h1 class="protip">Protip</h1>
           <h1>Draw BIG</h1>
           <h3 class="fragment">Draw Small</h3>
-          <aside class="notes">
-            Draw your system diagram with very few objects. Try to draw it on a 3x5 card or only using fat crayons.
-
-            Draw your processes with many objects. You are going to want to make small objects so give yourself room to make lots of them.
-          </aside>
         </section>
 
         <section data-background="rgb(108,154,40)">
           <img src="images/keep_calm.png" class="no-border" />
-          <aside class="notes">
-            Now it was time to start writing some code. I told my boss that I would not make any more updates to the old crappy PHP code. So the next time there was a new vendor I estimated a bit more time and got to work.
-            It should not be a surprise to you at this point that the first version was kind of sad.
-          </aside>
-        </section>
+       </section>
 
-        <section data-background="images/red_green_refactor.jpg">
-          <aside class="notes">
-            I was able to get a working implementation with some high-level acceptance tests.
-          </aside>
+        <section>
+          <h1><span class="red">Red</span></h1>
+          <h1><span class="green">Green</span></h1>
+          <h1>Refactor</h1>
         </section>
 
         <section data-background="images/crying_pony.png">
-          <aside class="notes">
-            But my code just didn't feel as clean and easy-to-follow as my metaphor or my drawing.
-            I didn't know how to fix my code.
-          </aside>
-        </section>
+       </section>
 
-        <section data-background="#55BB55">
-          <h1 class="protip">Protip</h1>
-          <h1>Literate Programming</h1>
-          <h3>Give me a Narrative</h3>
-        </section>
-
-        <section data-background="#5555BB">
-          <h1 class="protip">Protip</h1>
-          <h1>Make Up Stories</h1>
-          <aside class="notes">
-            If you want your code to read like a story, try to tell yourself a story about your code.
-            Pick the objects or modules in your existing system and give them names.
-            Write multiple stories that express the different use cases and you'll realize why your objects don't fit.
-          </aside>
-        </section>
-
-        <section>
+       <section>
           <div class="triangle-border right">
             Can we fix registrations from X?
           </div>
           <div class="triangle-border left fragment">
             Yes, lets migrate them to the new system.
           </div>
-          <aside class="notes">
-            For the next two months we migrated most of the vendors to the new API. I would spend 2-3 hours a week on our new system. Each time I would try to clean up one mess. Eventually there were only a couple of people using the old API so we migrated them too even though we didn't need to fix anything. For every existing client we only made them change the URL.
-          </aside>
-        </section>
+       </section>
 
         <section data-background="#55BB55">
           <h1 class="protip">Protip</h1>
@@ -292,10 +201,7 @@
         <section data-background="#5555BB">
           <h1 class="protip">Protip</h1>
           <h1>Sleep On It</h1>
-          <aside class="notes">
-            Your big ball of mud was good enough to get you to today. You aren't bankrupt (hopefully) so the rewrite doesn't have to be done this week.
-          </aside>
-        </section>
+       </section>
 
         <section data-background="images/rodin_thinker.jpg">
           <aside class='notes'>
@@ -311,11 +217,7 @@
           <h1>Duplication is far cheaper than the wrong abstraction</h1>
           <h3> - Sandi Metz</h3>
           <h4>"All the little things" Ruby On Ales 2014</h4>
-          <aside class='notes'>
-            At a recent talk Sandi Metz said...
-            I am in no way qualified to change Sandi's words, but...
-          </aside>
-        </section>
+       </section>
 
         <section>
           <h1>[almost anything] is far cheaper than the wrong abstraction</h1>
@@ -337,42 +239,7 @@
           <h1>End</h1>
           <h4>hqmq.github.io/presentation-accidental-design</h4>
         </section>
-
-        <!-- Your First Thought is Wrong
-        <section>
-          <h2>Why Your First Idea Can Blind You to a Better One</h2>
-          <h3> - Merim Bilalić and Peter McLeod</h3>
-          <h4>http://www.scientificamerican.com/article/why-your-first-idea-can-blind-you-to-better-idea/</h4>
-          <aside class="notes">
-            On a multiple choice test our first instinct is more often correct. But in more complex problems our initial reaction is much less successful.
-
-            This article talks about an experiment from 1942 by an American psychologist Abraham Luchins.
-          </aside>
-        </section>
-
-        <section data-background="images/experiment_1.jpeg">
-          <aside class="notes">
-            First Luchins asked people how they could measure out exactly 100 units of water given three containers.
-          </aside>
-        </section>
-
-        <section data-background="images/experiment_2.jpeg">
-          <aside class="notes">
-            Next he asked them to measure out exactly 20 units of water using these three containers. People had a harder time solving this problem than the first because they kept trying to use all three containers.
-          </aside>
-        </section>
-
-        <section data-background="#5555BB">
-          <h1 class="protip">Protip</h1>
-          <h1>Your First Thought Is Wrong</h1>
-          <aside class="notes">
-            "If it isn't worth arguing about, it probably isn't worth shipping." ~ Brandon Dewitt
-
-            You don't have to burn everything down and you don't have to wait to ship it, but you do have to make it better next time.
-          </aside>
-        </section>
-        -->
-      </div>
+     </div>
 
     </div>
 
