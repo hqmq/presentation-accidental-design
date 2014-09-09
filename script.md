@@ -9,11 +9,6 @@ In Finland you have really amazing drivers like Jari-Matti Latvala and Miko Hirv
 ## American Drivers (1 & 2)
 In America our professional race car drivers look like this... and this.
 
-But it could be worse...
-
-## Danish Driver
-I could be Danish.
-
 ## The Beginning
 A few year ago I was working for a company that among other things, put on educational events. Events had a date, a time, a venue and a list of attendees.
 
@@ -87,7 +82,7 @@ I haven't answered these questions, but I have an idea about how to keep the det
 Now I can dive into any of my top-level concerns and break them into diagrams of their own.
 
 ## Intentional Abstraction
-This again matches up with a well-known software design idea. You should have multiple levels of abstraction within your system. There should be just a few objects at the highest level of abstraction, and each other their jobs should be taken care of by more details objects.
+This again matches up with a well-known software design idea. You should have multiple levels of abstraction within your system. There should be just a few objects at the highest level of abstraction, and each other their jobs should be taken care of by more detailed objects.
 
 But once again, I didn't arrive at this design by knowing about abstraction...
 
@@ -139,17 +134,6 @@ I now had a bit more structure and more find-grained tests for the next time I c
 ## Sleep on It
 Taking time away from the problem helped me see it more clearly and leaving a mess with just regression tests made it faster for me to fix the next time I came back.
 
-## Thinker
-We are paid for our ideas.
-
-"When was the last time you thought hard about something for an hour? A Day? Over the course of a month?" ~Rich Hickey (Hammock Driven Development)
-
-There are lots of things you can do to code faster, but how do you think faster? Can you make inspiration strike?
-
-Working more hours in a day did not lead me to better software or even more software. The extra hours would be spent making messes that I would have to clean up later.
-
-So how do you get a project done on time?
-
 ## Plan For Design Time
 We all know that "Big Design up Front" doesn't work. But not designing at all doesn't work either. In this particular project we got very lucky because the pacing of the project put the time for design right in our laps.
 
@@ -169,11 +153,34 @@ I am not qualitified to mince words with Sandi, but I'll modify this quote anywa
 
 I would urge all of us to take some time throughout the life of our projects to find good abstractions.
 
+## Creativity vs Design Principles
+Part of what I learned from this experience is that knowing design principles doesn't make my software better, it just helps me to judge between options. Making better software requires that we generate better ideas, better designs.
+
+Both of these things are important, but for me I had to do more than just read good design ideas. I had to get creative.
+
+## Plan Time for Design
+Design of course is not free. It has a cost and spending time on design is not always the right decision. Certainly trying to make all your design decisions up front is a terrible idea, but never doing any design for a system that will need to be maintained long-term is equally terrible.
+
+Instead we should plan and budget time for creativity and design into the whole process of a project.
+
+## Find a Team
+This kind of planning and budgeting should not be done individually, it should be a group decision. You should have feedback from your team about when we want to pay the cost of more design and when we don't want to pay that cost.
+
+This means you have to work on a team where people are willing to pay the price of good design. MoneyDesktop Rocks!
+
 ## Get Creative
 The techniques I talked about in this story are only a few ways that you can get the creative parts of your brain involved in software design. There are many other ways that we didn't talk about today. These specific techniques have worked for me many times since then, but more important than the specific ways you come up with new ideas. Make time and effort to be creative and explore new ideas in your code every day.
+
+## Thinker
+"When was the last time you thought hard about something for an hour? A Day? Over the course of a month?" ~Rich Hickey (Hammock Driven Development)
+
+There are lots of things you can do to code faster, but how do you think faster?
+
+We are paid for our ideas.
 
 Lets not be great rough draft authors.
 
 Lets write the best code we are capable of instead of the fastest code we are capable of.
 
 ## End
+Thank you.
