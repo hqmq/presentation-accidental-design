@@ -140,7 +140,9 @@ In her talk "All the Little Things", Sandi Metz makes a pretty strong statement,
 I am not qualitified to mince words with Sandi, but I'll modify this quote anyway...
 
 ## Almost Anything...
-"[Almost anything] is cheaper than the wrong abstraction". In my experience thus far the biggest productivity improvement I have seen on any team is when a system has good tests and has good abstractions. When the abstractions in the code match the ideas of the problem that code is trying to solve it becomes much easier to understand and modify that code without breaking things.
+"[Almost anything] is cheaper than the wrong abstraction".
+
+In my experience thus far the biggest productivity improvement I have seen on any team is when a system has good tests and has good abstractions. When the abstractions in the code match the ideas of the problem that code is trying to solve it becomes much easier to understand and modify that code without breaking things.
 
 I would urge all of us to take some time throughout the life of our projects to find good abstractions.
 
@@ -151,6 +153,8 @@ Both of these things are important, but for me I had to do more than just read g
 
 ## Get Creative
 The techniques I talked about in this story are only a few ways that you can get the creative parts of your brain involved in software design. There are many other ways that we didn't talk about today. These specific techniques have worked for me many times since then, but more important than the specific ways you come up with new ideas. Make time and effort to be creative and explore new ideas in your code every day.
+
+We can learn a lot of our friends in other disciplines. Try talking to visual designers from your work, or a friend that paints.
 
 ## Plan For Design Time
 We all know that "Big Design up Front" doesn't work. But not designing at all doesn't work either. In this particular project we got very lucky because the pacing of the project put the time for design right in our laps.
