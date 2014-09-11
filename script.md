@@ -134,15 +134,6 @@ I now had a bit more structure and more find-grained tests for the next time I c
 ## Sleep on It
 Taking time away from the problem helped me see it more clearly and leaving a mess with just regression tests made it faster for me to fix the next time I came back.
 
-## Plan For Design Time
-We all know that "Big Design up Front" doesn't work. But not designing at all doesn't work either. In this particular project we got very lucky because the pacing of the project put the time for design right in our laps.
-
-In general you have to give yourself time to design throughout the life of your project. Take a little time up front to decide what general structure your project will take. If you need to get part of it done in a crunch, bet deliberate about leaving certain areas messy and change your testing style to support future improvement.
-
-Plan on spending an extra 4-6 hours on each additional feature or refinement for the first several months of a project so that you have time to take new ideas and try them out in the code.
-
-This lets you do your design at the time that you are familiar with the problem and the current implementation. You still have to take the time to design, but you can spread it out over the life of a project so that you don't plan things that never happen.
-
 ## Duplication is Cheaper...
 In her talk "All the Little Things", Sandi Metz makes a pretty strong statement, but one that resonated with me and with many other rubyists. "Duplication is far cheaper than the wrong abstraction".
 
@@ -158,6 +149,18 @@ Part of what I learned from this experience is that knowing design principles do
 
 Both of these things are important, but for me I had to do more than just read good design ideas. I had to get creative.
 
+## Get Creative
+The techniques I talked about in this story are only a few ways that you can get the creative parts of your brain involved in software design. There are many other ways that we didn't talk about today. These specific techniques have worked for me many times since then, but more important than the specific ways you come up with new ideas. Make time and effort to be creative and explore new ideas in your code every day.
+
+## Plan For Design Time
+We all know that "Big Design up Front" doesn't work. But not designing at all doesn't work either. In this particular project we got very lucky because the pacing of the project put the time for design right in our laps.
+
+In general you have to give yourself time to design throughout the life of your project. Take a little time up front to decide what general structure your project will take. If you need to get part of it done in a crunch, bet deliberate about leaving certain areas messy and change your testing style to support future improvement.
+
+Plan on spending an extra 4-6 hours on each additional feature or refinement for the first several months of a project so that you have time to take new ideas and try them out in the code.
+
+This lets you do your design at the time that you are familiar with the problem and the current implementation. You still have to take the time to design, but you can spread it out over the life of a project so that you don't plan things that never happen.
+
 ## Plan Time for Design
 Design of course is not free. It has a cost and spending time on design is not always the right decision. Certainly trying to make all your design decisions up front is a terrible idea, but never doing any design for a system that will need to be maintained long-term is equally terrible.
 
@@ -167,9 +170,6 @@ Instead we should plan and budget time for creativity and design into the whole 
 This kind of planning and budgeting should not be done individually, it should be a group decision. You should have feedback from your team about when we want to pay the cost of more design and when we don't want to pay that cost.
 
 This means you have to work on a team where people are willing to pay the price of good design. MoneyDesktop Rocks!
-
-## Get Creative
-The techniques I talked about in this story are only a few ways that you can get the creative parts of your brain involved in software design. There are many other ways that we didn't talk about today. These specific techniques have worked for me many times since then, but more important than the specific ways you come up with new ideas. Make time and effort to be creative and explore new ideas in your code every day.
 
 ## Thinker
 "When was the last time you thought hard about something for an hour? A Day? Over the course of a month?" ~Rich Hickey (Hammock Driven Development)
