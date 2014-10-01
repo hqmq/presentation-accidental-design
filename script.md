@@ -1,13 +1,22 @@
 ## Intro
-This is a story about a project that started off sad and terrible and ended up happy and delightful.
+Good Morning! Arrrrrrre you ready to talk about programming?
 
-I'm really excited to be in Finland. Here's an example of why I am excited to be in Finland.
+Before I get started I wanted to give a big thank you to our captains Hannes and Joren and everyone else who helped in the planning of this event.
 
-## Finnish Drivers (1 & 2)
-In Finland you have really amazing drivers like Jari-Matti Latvala and Miko Hirvonen.
+Before coming to Belgium the only thing I really knew was...
 
-## American Drivers (1 & 2)
-In America our professional race car drivers look like this... and this.
+## Shots on Goal
+You guys are way better at soccer than us.
+
+## Sad Tim Howard
+Not even Tim Howard could save that.
+
+## Ghent Pictures (1-3)
+After arriving here I found out how beautiful your city is.
+
+Also I learned that it is pronounced Ghent, Ghan, Hen or Han dependending on who you are talking to.
+
+Again thank you to the people who made this event possible and thank you for inviting me to come and meet you and spend some time here.
 
 ## The Beginning
 A few year ago I was working for a company that among other things, put on educational events. Events had a date, a time, a venue and a list of attendees.
@@ -33,6 +42,7 @@ I reflected on my life. I thought about some of the worst things I have ever don
 ## The Deadline
 As I was coming to the realization that I was in for a very bad day of programming by boss popped his head back into my office and said, "they actually starting sending us registrations yesterday, how soon can we have the system fixed? Also I'm going to need you to fix all the registrations that got flagged incorrectly."
 
+## Project Needs
 It was clear that in order to really fix this code I would need tests. In order to writ e the tests I would need sample data from the production environment and some help from someone in the business who was familiar with the registration process. It was also clear that I didn't have that mucht time. So I gritted my teeth and after much swearing I had made the change and I was ~~confident~~ hopeful that I hadn't broken anything.
 
 ## Time to Think
