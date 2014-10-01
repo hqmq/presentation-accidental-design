@@ -44,16 +44,32 @@
       position: absolute;
       right: 50px;
       bottom: 50px;
-      width: 150px;
-      height: 100px;
     }
     span.red { color: red; }
     span.green { color: green; }
+
+    section.full{
+      height: 100%;
+      width: 100%;
+    }
+    span.attribution {
+      color: white;
+      font-size: 0.6em;
+    }
+    span.bottom-right {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+    }
+
+    .full.top .attribution {
+      top: 0px;
+    }
     </style>
   </head>
 
   <body>
-    <img src="/images/MD-Dark_BG-1.png" id="logo" />
+    <img src="/images/mx_logo_light_small.png" id="logo" height="90px" />
 
     <div class="reveal">
 
@@ -66,23 +82,24 @@
        </section>
 
         <section>
-          <h1>Finnish Drivers</h1>
-          <img src="images/jarri-matti_latvala.jpg" />
+          <img src="/images/shots_on_goal.jpg" />
+          <br />
+          <span class="attribution">Source: http://www.sportsgrid.com/wp-content/uploads/2014/07/all-shots.jpg</span>
         </section>
 
         <section>
-          <h1>Finnish Drivers</h1>
-          <img src="images/mikko_hirvonen.jpg" />
+          <img src="/images/sad_tim_howard.jpg" />
+          <br />
+          <span class="attribution">Source: http://i2.cdn.turner.com/cnn/dam/assets/140701183503-wc-best-ofusa-06-story-top.jpg</span>
         </section>
 
-        <section>
-          <h1>American Drivers</h1>
-          <img src="images/american_mullet.1.jpg" />
+        <section data-background="/images/ghent_1.jpg">
         </section>
 
-        <section>
-          <h1>American Drivers</h1>
-          <img src="images/american_mullet.2.jpg" />
+        <section data-background="/images/ghent_2.jpg">
+        </section>
+
+        <section data-background="/images/ghent_3.jpg" data-background-size="60%">
         </section>
 
         <section>
@@ -189,6 +206,9 @@
           <h2> - Sandi Metz</h2>
        </section>
 
+        <section data-background="images/firefly_wallpaper.jpg" class="full top">
+        </section>
+
         <section>
           <div class="triangle-border right">
             Can we fix registrations from X?
@@ -198,10 +218,21 @@
           </div>
         </section>
 
+        <section>
+          <img src="images/leaf_on_the_wind.jpg" />
+          <br />
+          <span class="attribution">http://th08.deviantart.net/fs71/PRE/i/2012/313/8/8/i__m_a_leaf_on_the_wind_by_forevermelody-d5kgpor.jpg</span>
+        </section>
+
         <section data-background="#55BB55">
           <h1 class="protip">Protip</h1>
           <h1>Iterative Refinement</h1>
         </section>
+
+        <section data-background="#5555BB">
+          <h1 class="protip">Protip</h1>
+          <h1>Tell a Story</h1>
+       </section>
 
         <section data-background="#5555BB">
           <h1 class="protip">Protip</h1>
@@ -216,7 +247,7 @@
 
         <section>
           <h1>almost anything is far cheaper than the wrong abstraction</h1>
-          <h3> - Some Guy at Frozen Rails</h3>
+          <h3> - Some Guy at Arrrrcamp</h3>
         </section>
 
         <section>
@@ -262,8 +293,8 @@
         </section>
 
         <section data-background="#000000">
-          <h1>End</h1>
-          <h4>hqmq.github.io/presentation-accidental-design</h4>
+          <img src="/images/mx_logo_light.png" height="200px" />
+          <h4>Thanks mxenabled.com!</h4>
         </section>
      </div>
 
